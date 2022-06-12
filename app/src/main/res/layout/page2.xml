@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="208dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641"
+        tools:text="40% of the food produced in india is wasted every year ie: 67 million tons of food" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="277dp"
+        android:layout_height="403dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="368dp"
+        android:src="@drawable/pic4"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/idBtnLogin"
+        android:layout_width="173dp"
+        android:layout_height="46dp"
+        android:background="@drawable/round_drawable"
+        android:text="NEXT"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+</android.support.constraint.ConstraintLayout>
