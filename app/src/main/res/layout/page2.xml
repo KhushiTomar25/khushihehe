@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/green" >
+    android:background="@color/madang" >
 
     <TextView
         android:id="@+id/textView2"
@@ -14,7 +14,7 @@
         android:layout_marginEnd="6dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="TextView"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,6 +49,7 @@
         android:layout_marginBottom="37dp"
         android:background="@drawable/button"
         android:text="NEXT"
+        android:backgroundTint="@color/offwhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

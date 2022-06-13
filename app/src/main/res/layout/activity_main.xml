@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/green" >
+    android:background="@color/madang" >
 
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="440dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="Well,the solution to the problem is FEEDR"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
 
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,6 +34,8 @@
         android:layout_marginBottom="37dp"
         android:background="@drawable/button"
         android:text="NEXT"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/offwhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
