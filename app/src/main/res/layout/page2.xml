@@ -21,7 +21,7 @@
         app:layout_constraintStart_toEndOf="@+id/profile_image"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.641"
-        tools:text="40% of the food produced in india is wasted every year ie: 67 million tons of food" />
+        tools:text="40% of the food is ahahah produced in india is wasted every year ie: 67 million tons of food" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
